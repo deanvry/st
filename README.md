@@ -10,6 +10,10 @@ All patch was saved on the `patches` directory. Installed patch:
  
 ## Key Bindings
 - scrollback: use `alt + up/down`, `shift + pageup/down`, or `mouse scroll` instead.
+- font resize (zoom)
+  - up: `ctrl + plus` or `ctrl + shift + equal`
+  - down: `ctrl + minus`
+  - reset: `ctrl + equal`
 
 ## Installation
 Edit `config.mk` to match your local setup (st is installed into
