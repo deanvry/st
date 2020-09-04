@@ -9,18 +9,20 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-scrollback, st-scrollback-mouse, st-scrollback-mouse-altscreen
  
 ## Key Bindings
-- scrollback: use `alt + up/down`, `shift + pageup/down`, or `mouse scroll` instead.
+- scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
 - font resize (zoom)
-  - up: `ctrl + plus` or `ctrl + shift + equal`
-  - down: `ctrl + minus`
-  - reset: `ctrl + equal`
+  - increase: `ctrl + plus` or `ctrl + shift + equal`
+  - decrease: `ctrl + minus`
+  - reset to default: `ctrl + equal`
+- clipboard
+  - copy: `ctrl + shift + c`
+  - paste: `ctrl + shift + p`
 
 ## Installation
-Edit `config.mk` to match your local setup (st is installed into
-the `/usr/local` namespace by default).
+Edit `config.mk` to match your local setup (st is installed into the `/usr/local` namespace by default). 
+If you want to compile st for OpenBSD you have to remove `-lrt` from `config.mk`.
 
-Afterwards enter the following command to build and install st (if
-necessary as root):
+Afterwards enter the following command to build and install:
 
     git clone https://github.com/deanvry/st
     cd st
@@ -34,7 +36,7 @@ the st terminfo entry with the following command:
 See the man page for additional details.
 
 ## Uninstall
-If you want to uninstall st, run the command below on the repo root folder.
+If you want to uninstall st, enter the following command below:
 
     sudo make uninstall
 
