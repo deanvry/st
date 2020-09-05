@@ -7,12 +7,12 @@ In order to build st you need the Xlib header files.
 ## Patches
 All patch was saved on the `patches` directory. Installed patch:
 - st-scrollback, st-scrollback-mouse, st-scrollback-mouse-altscreen
-- st-xresources
+- st-nordtheme
 
-### Features
+## Added Features
 - scrollback support with keyboard and mouse,
-- xresources support to define colors and fonts, default to "mono" font,
-- resize font on the fly.
+- font resize on the fly,
+- nord theme
  
 ## Key Bindings
 - scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
