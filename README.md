@@ -8,11 +8,13 @@ In order to build st you need the Xlib header files.
 All patch was saved on the `patches` directory. Installed patch:
 - st-scrollback, st-scrollback-mouse, st-scrollback-mouse-altscreen
 - st-nordtheme
+- st-boxdraw
 
 ## Added Features
 - scrollback support with keyboard and mouse,
+- better line render with boxdraw,
 - font resize on the fly,
-- nord theme
+- nord theme.
  
 ## Key Bindings
 - scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
@@ -30,7 +32,7 @@ If you want to compile st for OpenBSD you have to remove `-lrt` from `config.mk`
 
 Afterwards enter the following command to build and install:
 
-    git clone https://github.com/deanvry/st
+    git clone https://github.com/deanvry/st --depth=1
     cd st
     sudo make clean install
 
