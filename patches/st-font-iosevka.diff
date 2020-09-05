@@ -1,0 +1,13 @@
+diff --git a/config.def.h b/config.def.h
+index a9fb67f..056c71d 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Iosevka Term:pixelsize=13:antialias=true:autohint=true";
+ static int borderpx = 7;
+ 
+ /*
