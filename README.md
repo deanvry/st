@@ -13,7 +13,7 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-font2
 - st-w3m
 
-### Added Features
+## Added Features
 - scrollback support with keyboard and mouse,
 - better w3m image support,
 - better line render with boxdraw,
@@ -21,7 +21,7 @@ All patch was saved on the `patches` directory. Installed patch:
 - font resize on the fly,
 - nord theme.
  
-# Key Bindings
+## Key Bindings
 - scrollback: `alt + up/down`, `alt + pageup/down` for faster scolling, or use `mouse scroll` instead.
 - font resize
   - increase: `ctrl + plus` or `ctrl + shift + equal`
