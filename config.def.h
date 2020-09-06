@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+    /* examples */
+    "Feather:style=Regular:antialias=true:autohint=true",
+    "Twitter Color Emoji:style=Regular:antialias=true:autohint=true",
+};
 static int borderpx = 7;
 
 /*
