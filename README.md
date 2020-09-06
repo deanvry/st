@@ -11,8 +11,10 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-boxdraw
 - st-anygeometry
 - st-font2
+- st-w3m
 
 ## Added Features
+- w3m image support,
 - scrollback support with keyboard and mouse,
 - better line render with boxdraw,
 - better glyph render with font2,
