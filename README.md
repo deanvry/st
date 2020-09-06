@@ -9,6 +9,7 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-scrollback, st-scrollback-mouse, st-scrollback-mouse-altscreen
 - st-nordtheme
 - st-boxdraw
+- st-anygeometry
 
 ## Added Features
 - scrollback support with keyboard and mouse,
