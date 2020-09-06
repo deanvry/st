@@ -10,10 +10,12 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-nordtheme
 - st-boxdraw
 - st-anygeometry
+- st-font2
 
 ## Added Features
 - scrollback support with keyboard and mouse,
 - better line render with boxdraw,
+- better glyph render with font2,
 - font resize on the fly,
 - nord theme.
  
