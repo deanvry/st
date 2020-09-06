@@ -13,7 +13,7 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-font2
 - st-w3m
 
-## Added Features
+### Added Features
 - w3m image support,
 - scrollback support with keyboard and mouse,
 - better line render with boxdraw,
@@ -23,7 +23,7 @@ All patch was saved on the `patches` directory. Installed patch:
  
 ## Key Bindings
 - scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
-- font resize (zoom)
+- font resize
   - increase: `ctrl + plus` or `ctrl + shift + equal`
   - decrease: `ctrl + minus`
   - reset to default: `ctrl + equal`
@@ -49,7 +49,7 @@ the st terminfo entry with the following command:
 See the man page for additional details.
 
 ## Uninstall
-If you want to uninstall st, enter the following command below:
+First go to this repo root directory, then enter the following command below:
 
     sudo make uninstall
 
