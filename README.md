@@ -21,7 +21,7 @@ All patch was saved on the `patches` directory. Installed patch:
 - font resize on the fly,
 - nord theme.
  
-## Key Bindings
+# Key Bindings
 - scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
 - font resize
   - increase: `ctrl + plus` or `ctrl + shift + equal`
