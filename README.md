@@ -14,15 +14,15 @@ All patch was saved on the `patches` directory. Installed patch:
 - st-w3m
 
 ### Added Features
-- w3m image support,
 - scrollback support with keyboard and mouse,
+- better w3m image support,
 - better line render with boxdraw,
 - better glyph render with font2,
 - font resize on the fly,
 - nord theme.
  
 # Key Bindings
-- scrollback: `alt + up/down`, `shift + pageup/down`, or use `mouse scroll` instead.
+- scrollback: `alt + up/down`, `alt + pageup/down` for faster scolling, or use `mouse scroll` instead.
 - font resize
   - increase: `ctrl + plus` or `ctrl + shift + equal`
   - decrease: `ctrl + minus`
