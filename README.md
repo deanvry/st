@@ -1,5 +1,5 @@
 # st - simple terminal
-st is a simple terminal emulator for X which sucks less.
+st is a simple terminal implementation for X.
 
 ### Requirements
 In order to build st you need the Xlib header files.
